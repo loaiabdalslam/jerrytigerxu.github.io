@@ -1788,4 +1788,16 @@
 .icon-IcoMoon:before {
   content: "\eb1a";
 }
+.icon-cogs:before {
+  content: "\eb1b";
+}
+.icon-money:before {
+  content: "\eb1c";
+}
+.icon-sitemap:before {
+  content: "\eb1d";
+}
+.icon-bar-chart:before {
+  content: "\eb1e";
+}
 
