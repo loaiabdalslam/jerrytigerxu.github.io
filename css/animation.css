@@ -18,3 +18,8 @@
   display: inline-block;
   line-height: 1em;
 }
+
+
+html {
+  scroll-behavior:smooth
+}
