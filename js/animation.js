@@ -19,3 +19,14 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+
+function scrollToElement (selector) {
+  $('html, body').animate({
+    scrollTop: $(selector).offset().top
+  }, 2000);    
+};
+
+$(document).on('click', 'a.smooth', function () {
+  scrollToElement($(this).attr('href'));
+});
