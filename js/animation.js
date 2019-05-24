@@ -23,7 +23,7 @@ anime.timeline({loop: true})
 
 var $root = $('html, body');
 
-$('a[href^="#"]').click(function () {
+$('a[href^="#services"]').click(function () {
     $root.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
