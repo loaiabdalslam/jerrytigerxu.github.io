@@ -21,12 +21,12 @@ anime.timeline({loop: true})
   });
 
 
-function scrollToElement (selector) {
-  $('html, body').animate({
-    scrollTop: $(selector).offset().top
-  }, 2000);    
-};
+var $root = $('html, body');
 
-$(document).on('click', 'a.smooth', function () {
-  scrollToElement($(this).attr('href'));
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+
+    return false;
 });
