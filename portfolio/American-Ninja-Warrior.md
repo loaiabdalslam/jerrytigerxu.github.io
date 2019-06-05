@@ -1,3 +1,4 @@
+# American Ninja Warrior Project
 
 Now that you are here, you are about to witness a succinct and effective cleaning of the data regarding the history of obstacles of the ten seasons of American Ninja Warrior. There will also be some cool analysis to top it off.
 
